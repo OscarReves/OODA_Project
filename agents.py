@@ -35,6 +35,8 @@ class RandomAgent(Agent):
 
 class QLearningAgent(Agent):
     
+    # currently lacking the update policy for Q-values
+
     def __init__(
             self, 
             environment: gym.Env,
